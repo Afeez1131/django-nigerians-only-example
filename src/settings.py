@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'nigerian_only',
     'test_app',
 ]
 
@@ -48,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'nigerian_only.middleware.NigerianOnlyMiddleware',
+    'nigerian_only.middleware.NigeriansOnlyMiddleware',
 ]
 
 ROOT_URLCONF = 'src.urls'
